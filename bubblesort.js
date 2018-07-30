@@ -1,6 +1,6 @@
 function bubbleSort(arr) {
-  console.log("beginning", arr);
   let size = arr.length;
+
   //while unsorted
   while (size > 1) {
     for (let i = 0; i < size - 1; i++) {
@@ -8,7 +8,6 @@ function bubbleSort(arr) {
     }
     size--;
   }
-  console.log("ending", arr);
   return arr;
 }
 
