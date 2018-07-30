@@ -3,7 +3,7 @@ describe("Bubble Sort", function() {
 
   beforeAll(function() {
     for (let i = 0; i < 20; i++) {
-      arrayForSorting.push(Math.random);
+      arrayForSorting.push(Math.random());
     }
   });
 
