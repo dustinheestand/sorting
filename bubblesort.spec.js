@@ -28,6 +28,7 @@ describe("Bubble Sort", function() {
     console.log(window.compare.calls.count());
     expect(window.compare).toHaveBeenCalled();
     expect(window.compare.calls.count()).toBeLessThan(maxSwaps);
+
     expect(window.swap).toHaveBeenCalled();
     expect(window.swap.calls.count()).toBeLessThan(maxSwaps);
   });
